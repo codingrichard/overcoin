@@ -1,0 +1,145 @@
+2017-Sep-12 13:55:24.316218 INFO [daemon] overcoin v1.1.1.1(0.1-g8edd99830)
+2017-Sep-12 13:55:24.316607 INFO [daemon] Module folder: ./overcoind
+2017-Sep-12 13:55:24.319426 ERROR [currency] failed to parse coinbase tx from hard coded blob
+2017-Sep-12 13:55:24.319598 ERROR [currency] Failed to generate genesis block
+2017-Sep-12 13:59:20.858350 INFO [daemon] overcoin v1.1.1.1(0.1-g8edd99830)
+2017-Sep-12 13:59:20.859806 INFO [daemon] Module folder: ./overcoind
+2017-Sep-12 13:59:20.865547 ERROR [currency] failed to parse coinbase tx from hard coded blob
+2017-Sep-12 13:59:20.865698 ERROR [currency] Failed to generate genesis block
+2017-Sep-12 14:06:10.638714 INFO [daemon] overcoin v1.1.1.1(0.1-g8edd99830)
+2017-Sep-12 14:06:10.639512 INFO [daemon] Module folder: ./overcoind
+2017-Sep-12 14:06:10.643236 INFO [daemon] Initializing p2p server...
+2017-Sep-12 14:06:10.643542 INFO [node_server] Binding on 0.0.0.0:17236
+2017-Sep-12 14:06:10.643695 INFO [node_server] Net service binded on 0.0.0.0:17236
+2017-Sep-12 14:06:10.643811 INFO [node_server] Attempting to add IGD port mapping.
+2017-Sep-12 14:06:14.648272 INFO [node_server] No IGD was found.
+2017-Sep-12 14:06:14.648416 INFO [daemon] P2p server initialized OK
+2017-Sep-12 14:06:14.648546 INFO [daemon] Initializing core...
+2017-Sep-12 14:06:14.648863 INFO [Blockchain] Blockchain not loaded, generating genesis block.
+2017-Sep-12 14:06:14.727598 INFO [Blockchain] Blockchain initialized. last block: 0, d1896.h9.m6.s14 time ago, current difficulty: 1
+2017-Sep-12 14:06:14.727751 INFO [daemon] Core initialized OK
+2017-Sep-12 14:06:14.727980 INFO [daemon] Starting core rpc server on address 127.0.0.1:18236
+2017-Sep-12 14:06:14.728155 INFO [daemon] Core rpc server started ok
+2017-Sep-12 14:06:14.728273 INFO [daemon] Starting p2p net loop...
+2017-Sep-12 14:06:14.728383 INFO [node_server] Starting node_server
+2017-Sep-12 14:06:14.738174 INFO [protocol] 
+2017-Sep-12 14:06:14.738174 INFO [protocol] **********************************************************************
+2017-Sep-12 14:06:14.738174 INFO [protocol] You are now synchronized with the network. You may now start simplewallet.
+2017-Sep-12 14:06:14.738174 INFO [protocol] 
+2017-Sep-12 14:06:14.738174 INFO [protocol] Please note, that the blockchain will be saved only after you quit the daemon with "exit" command or if you use "save" command.
+2017-Sep-12 14:06:14.738174 INFO [protocol] Otherwise, you will possibly need to synchronize the blockchain again.
+2017-Sep-12 14:06:14.738174 INFO [protocol] 
+2017-Sep-12 14:06:14.738174 INFO [protocol] Use "help" command to see the list of available commands.
+2017-Sep-12 14:06:14.738174 INFO [protocol] **********************************************************************
+2017-Sep-12 14:06:14.740960 INFO [core] 
+2017-Sep-12 14:06:14.740960 INFO [core] **********************************************************************
+2017-Sep-12 14:06:14.740960 INFO [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2017-Sep-12 14:06:14.740960 INFO [core] 
+2017-Sep-12 14:06:14.740960 INFO [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2017-Sep-12 14:06:14.740960 INFO [core] 
+2017-Sep-12 14:06:14.740960 INFO [core] Use "help" command to see the list of available commands.
+2017-Sep-12 14:06:14.740960 INFO [core] 
+2017-Sep-12 14:06:14.740960 INFO [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2017-Sep-12 14:06:14.740960 INFO [core] **********************************************************************
+2017-Sep-12 14:06:37.676383 INFO [node_server] Stop signal sent
+2017-Sep-12 14:06:37.676558 INFO [node_server] Stopping NodeServer and it's0 connections...
+2017-Sep-12 14:06:37.676922 INFO [node_server] NodeServer loop stopped
+2017-Sep-12 14:06:37.677025 INFO [daemon] p2p net loop stopped
+2017-Sep-12 14:06:37.677177 INFO [daemon] Stopping core rpc server...
+2017-Sep-12 14:06:37.677416 INFO [daemon] Deinitializing core...
+2017-Sep-12 14:06:37.677541 INFO [miner] Mining has been stopped, 0 finished
+2017-Sep-12 14:06:37.677833 INFO [Blockchain] Saving blockchain...
+2017-Sep-12 14:06:37.678022 INFO [BlockCacheSerializer] - saving block index...
+2017-Sep-12 14:06:37.678153 INFO [BlockCacheSerializer] - saving transaction map...
+2017-Sep-12 14:06:37.678296 INFO [BlockCacheSerializer] - saving spent keys...
+2017-Sep-12 14:06:37.678452 INFO [BlockCacheSerializer] - saving outputs...
+2017-Sep-12 14:06:37.678622 INFO [BlockCacheSerializer] - saving multi-signature outputs...
+2017-Sep-12 14:06:37.678765 INFO [BlockCacheSerializer] Serialization time: 0ms
+2017-Sep-12 14:06:37.678968 INFO [Blockchain] Saving blockchain indices...
+2017-Sep-12 14:06:37.679144 INFO [BlockchainIndicesSerializer] - saving paymentID index...
+2017-Sep-12 14:06:37.679250 INFO [BlockchainIndicesSerializer] - saving timestamp index...
+2017-Sep-12 14:06:37.679395 INFO [BlockchainIndicesSerializer] - saving generated transactions index...
+2017-Sep-12 14:06:37.679594 INFO [daemon] Deinitializing p2p...
+2017-Sep-12 14:06:37.679925 INFO [miner] Mining has been stopped, 0 finished
+2017-Sep-12 14:06:37.680584 INFO [daemon] Node stopped.
+2017-Sep-12 14:06:42.962603 INFO [daemon] overcoin v1.1.1.1(0.1-g8edd99830)
+2017-Sep-12 14:06:42.962917 INFO [daemon] Module folder: ./overcoind
+2017-Sep-12 14:06:42.964483 INFO [daemon] Initializing p2p server...
+2017-Sep-12 14:06:42.964807 INFO [node_server] Binding on 0.0.0.0:17236
+2017-Sep-12 14:06:42.964963 INFO [node_server] Net service binded on 0.0.0.0:17236
+2017-Sep-12 14:06:42.965087 INFO [node_server] Attempting to add IGD port mapping.
+2017-Sep-12 14:06:46.968635 INFO [node_server] No IGD was found.
+2017-Sep-12 14:06:46.968789 INFO [daemon] P2p server initialized OK
+2017-Sep-12 14:06:46.968893 INFO [daemon] Initializing core...
+2017-Sep-12 14:06:46.969089 INFO [Blockchain] Loading blockchain...
+2017-Sep-12 14:06:46.969318 INFO [BlockCacheSerializer] - loading block index...
+2017-Sep-12 14:06:46.969429 INFO [BlockCacheSerializer] - loading transaction map...
+2017-Sep-12 14:06:46.969535 INFO [BlockCacheSerializer] - loading spent keys...
+2017-Sep-12 14:06:46.969636 INFO [BlockCacheSerializer] - loading outputs...
+2017-Sep-12 14:06:46.969743 INFO [BlockCacheSerializer] - loading multi-signature outputs...
+2017-Sep-12 14:06:46.969848 INFO [BlockCacheSerializer] Serialization time: 0ms
+2017-Sep-12 14:06:46.969960 INFO [Blockchain] Loading blockchain indices for BlockchainExplorer...
+2017-Sep-12 14:06:46.970112 INFO [BlockchainIndicesSerializer] - loading paymentID index...
+2017-Sep-12 14:06:46.970217 INFO [BlockchainIndicesSerializer] - loading timestamp index...
+2017-Sep-12 14:06:46.970320 INFO [BlockchainIndicesSerializer] - loading generated transactions index...
+2017-Sep-12 14:06:46.970464 INFO [Blockchain] Blockchain initialized. last block: 0, d1896.h9.m6.s46 time ago, current difficulty: 1
+2017-Sep-12 14:06:46.970581 INFO [daemon] Core initialized OK
+2017-Sep-12 14:06:46.970787 INFO [daemon] Starting core rpc server on address 127.0.0.1:18236
+2017-Sep-12 14:06:46.970950 INFO [daemon] Core rpc server started ok
+2017-Sep-12 14:06:46.971059 INFO [daemon] Starting p2p net loop...
+2017-Sep-12 14:06:46.971159 INFO [node_server] Starting node_server
+2017-Sep-12 14:06:46.977149 INFO [protocol] 
+2017-Sep-12 14:06:46.977149 INFO [protocol] **********************************************************************
+2017-Sep-12 14:06:46.977149 INFO [protocol] You are now synchronized with the network. You may now start simplewallet.
+2017-Sep-12 14:06:46.977149 INFO [protocol] 
+2017-Sep-12 14:06:46.977149 INFO [protocol] Please note, that the blockchain will be saved only after you quit the daemon with "exit" command or if you use "save" command.
+2017-Sep-12 14:06:46.977149 INFO [protocol] Otherwise, you will possibly need to synchronize the blockchain again.
+2017-Sep-12 14:06:46.977149 INFO [protocol] 
+2017-Sep-12 14:06:46.977149 INFO [protocol] Use "help" command to see the list of available commands.
+2017-Sep-12 14:06:46.977149 INFO [protocol] **********************************************************************
+2017-Sep-12 14:06:46.979663 INFO [core] 
+2017-Sep-12 14:06:46.979663 INFO [core] **********************************************************************
+2017-Sep-12 14:06:46.979663 INFO [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2017-Sep-12 14:06:46.979663 INFO [core] 
+2017-Sep-12 14:06:46.979663 INFO [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2017-Sep-12 14:06:46.979663 INFO [core] 
+2017-Sep-12 14:06:46.979663 INFO [core] Use "help" command to see the list of available commands.
+2017-Sep-12 14:06:46.979663 INFO [core] 
+2017-Sep-12 14:06:46.979663 INFO [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2017-Sep-12 14:06:46.979663 INFO [core] **********************************************************************
+2017-Sep-12 14:07:08.261601 WARNING [node_server] [163.172.139.108:53557 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:07:16.297817 WARNING [node_server] [163.172.139.108:54307 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:08:28.580752 WARNING [node_server] [163.172.139.108:52372 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:08:32.600945 WARNING [node_server] [163.172.139.108:52406 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:09:43.451656 WARNING [node_server] [163.172.139.108:60334 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:09:55.511944 WARNING [node_server] [163.172.139.108:36961 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:10:16.011970 WARNING [node_server] [163.172.139.108:37500 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:12:01.031820 WARNING [node_server] [163.172.139.108:40568 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:12:27.783439 WARNING [node_server] [163.172.139.108:58074 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:12:36.031789 WARNING [node_server] [163.172.139.108:40222 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:13:22.431386 WARNING [node_server] [163.172.139.108:52724 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:13:34.691863 WARNING [node_server] [163.172.139.108:58400 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:13:40.931914 WARNING [node_server] [163.172.139.108:57640 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:13:47.171970 WARNING [node_server] [163.172.139.108:59607 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:14:07.471870 WARNING [node_server] [163.172.139.108:54781 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:14:36.011996 WARNING [node_server] [163.172.139.108:44372 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:15:14.371490 WARNING [node_server] [163.172.139.108:50578 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:16:14.021408 WARNING [node_server] [163.172.139.108:46829 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:17:23.900921 WARNING [node_server] [163.172.139.108:48419 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:17:33.938024 WARNING [node_server] [163.172.139.108:43063 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:18:09.067848 WARNING [node_server] [163.172.139.108:36626 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:18:36.381773 WARNING [node_server] [163.172.139.108:55557 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:18:50.651718 WARNING [node_server] [163.172.139.108:47145 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:19:26.969808 WARNING [node_server] [163.172.139.108:46946 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:21:32.042025 WARNING [node_server] [163.172.139.108:48975 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:22:09.021826 WARNING [node_server] [163.172.139.108:46362 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:22:32.114962 WARNING [node_server] [163.172.139.108:36134 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:22:40.361886 WARNING [node_server] [163.172.139.108:39105 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:23:27.761741 WARNING [node_server] [163.172.139.108:54668 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:24:06.341771 WARNING [node_server] [163.172.139.108:54159 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:26:02.632487 WARNING [node_server] [163.172.139.108:40669 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:26:23.919554 WARNING [node_server] [163.172.139.108:40556 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:26:25.935198 WARNING [node_server] [163.172.139.108:58350 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:26:31.994815 WARNING [node_server] [163.172.139.108:56658 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:26:36.221845 WARNING [node_server] [163.172.139.108:50240 INC] Exception in connectionHandler: TcpConnection::read
+2017-Sep-12 14:26:48.273459 WARNING [node_server] [163.172.139.108:55191 INC] Exception in connectionHandler: TcpConnection::read
